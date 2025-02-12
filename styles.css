@@ -12,3 +12,19 @@ button{
   margin: 4px 2px;
   cursor: pointer;
 }
+@media (max-width: 600px) {
+  body{
+    background-color: lightgray;
+  }
+  button {
+    width:100%;
+  }
+}
+@keyframes greatness {
+  from{background-color: red;}
+  to {background-color: yellow;}
+}
+button {
+  animation-name: greatness;
+  animation-duration: 4s;
+}
